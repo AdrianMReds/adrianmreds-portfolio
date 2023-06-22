@@ -1,15 +1,16 @@
 import React from "react";
 import "../styles/Projects.css";
 import ProjectItem from "../components/ProjectItem";
-import Colorpalettepic from "../assets/colorpalette.png";
+import { ProjectList } from "../helper/projectList";
 
 const Projects = () => {
   return (
     <div className="projects">
       <h1>My personal projects</h1>
       <div className="projectList">
-        <ProjectItem name="Color palette generator" image={Colorpalettepic} />
-        <ProjectItem name="Color palette generator" image={Colorpalettepic} />
+        {ProjectList.map((item, index) => {
+          return <ProjectItem id={index} name={item.name} image={item.image} />;
+        })}
       </div>
     </div>
   );
