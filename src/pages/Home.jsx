@@ -9,9 +9,18 @@ const Home = () => {
         <h2>Hi, my name is Adrian</h2>
         <div className="prompt">
           <p>A software developer that loves to create stuff.</p>
-          <FaGithub />
-          <FaLinkedin />
-          <FaInstagram />
+          <a href="https://github.com/AdrianMReds" target="_blank">
+            <FaGithub />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/adrianmontemayor/"
+            target="_blank"
+          >
+            <FaLinkedin />
+          </a>
+          <a href="https://www.instagram.com/adrianmreds/" target="_blank">
+            <FaInstagram />
+          </a>
         </div>
       </div>
       <div className="skills">
@@ -19,15 +28,15 @@ const Home = () => {
         <ol className="list">
           <li className="item">
             <h2>Front-End</h2>
-            <span></span>
+            <span>HTML, CSS, Javascript, ReactJS</span>
           </li>
           <li className="item">
             <h2>Back-End</h2>
-            <span></span>
+            <span>Firebase, MongoDB</span>
           </li>
           <li className="item">
             <h2>Languages</h2>
-            <span></span>
+            <span>Javascript, Python, C++, Java</span>
           </li>
         </ol>
       </div>

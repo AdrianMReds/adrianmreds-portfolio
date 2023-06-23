@@ -11,9 +11,11 @@ const ProjectDisplay = () => {
   return (
     <div className="project">
       <h1>{project.name}</h1>
-      <img src={project.image} />
+      <img src={project.image} alt="Project" />
       <p>Skills: {project.skills}</p>
-      <FaGithub />
+      <a href={project.repo} target="_blank">
+        <FaGithub />
+      </a>
     </div>
   );
 };

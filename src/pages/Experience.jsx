@@ -9,11 +9,11 @@ import { FaSchool, FaBriefcase, FaChalkboardTeacher } from "react-icons/fa";
 const Experience = () => {
   return (
     <div className="experience">
-      <VerticalTimeline lineColor="#3e497a">
+      <VerticalTimeline lineColor="#1a1365">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2018 - 2022"
-          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          iconStyle={{ background: "#1a1365", color: "#fff" }}
           icon={<FaSchool />}
         >
           <h3 className="vertical-timeline-element-title">

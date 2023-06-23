@@ -14,7 +14,7 @@
 }
 
 .project img {
-  width: 700px;
+  width: 600px;
   border-radius: 10px;
 }
 
@@ -23,7 +23,8 @@
   color: #3e497a;
 }
 
-.project svg {
+.project a svg {
+  cursor: pointer;
   font-size: 60px;
   color: #3e497a;
 }
