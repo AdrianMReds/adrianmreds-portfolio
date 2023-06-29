@@ -76,7 +76,7 @@ const Experience = () => {
           <p>
             I develop MVPs for startups using Wordpress, Elementor and
             Formidable. I create plugins for Wordpress using Javascript and
-            modify Formidable tables with HTML.
+            modify Formidable tables with HTML and CSS.
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>

@@ -13,9 +13,11 @@ const ProjectDisplay = () => {
       <h1>{project.name}</h1>
       <img src={project.image} alt="Project" />
       <p>Skills: {project.skills}</p>
-      <a href={project.repo} target="_blank">
-        <FaGithub />
-      </a>
+      {project.repo && (
+        <a href={project.repo} target="_blank">
+          <FaGithub />
+        </a>
+      )}
     </div>
   );
 };

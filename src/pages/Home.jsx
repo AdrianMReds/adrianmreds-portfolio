@@ -32,11 +32,18 @@ const Home = () => {
           </li>
           <li className="item">
             <h2>Back-End</h2>
-            <span>Firebase, MongoDB</span>
+            <span>Firebase, MongoDB, SQL</span>
           </li>
           <li className="item">
             <h2>Languages</h2>
-            <span>Javascript, Python, C++, Java</span>
+            <span>Javascript, Python, C++, Java, Typescript</span>
+          </li>
+          <li className="item">
+            <h2>Other skills</h2>
+            <span>
+              Teaching, Public speaking, Entrepeneurship, Innovation, Git and
+              Github, Game Development with Pygame
+            </span>
           </li>
         </ol>
       </div>
