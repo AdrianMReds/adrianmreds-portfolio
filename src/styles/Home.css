@@ -49,15 +49,32 @@
   margin: 10px 0;
 }
 
-.skills .list {
-  list-style: none;
-  width: 60%;
-  margin: 10px 0;
-  padding: 0;
+.skill-type {
+  width: 80%;
 }
 
-.list span {
-  font-size: 30px;
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.skill p {
+  margin: 0;
+}
+
+.skill {
+  margin: 5px 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #1a1365;
+  block-size: fit-content;
+  cursor: pointer;
+}
+
+.skill:hover {
+  background-color: lightgray;
 }
 
 @media only screen and (max-width: 830px) {

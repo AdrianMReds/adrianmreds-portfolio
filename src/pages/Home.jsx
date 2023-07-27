@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { skills } from "../helper/skills";
 import "../styles/Home.css";
 
 const Home = () => {
@@ -25,27 +26,57 @@ const Home = () => {
       </div>
       <div className="skills">
         <h1>Skills</h1>
-        <ol className="list">
-          <li className="item">
-            <h2>Front-End</h2>
-            <span>HTML, CSS, Javascript, ReactJS</span>
-          </li>
-          <li className="item">
-            <h2>Back-End</h2>
-            <span>Firebase, MongoDB, SQL</span>
-          </li>
-          <li className="item">
-            <h2>Languages</h2>
-            <span>Javascript, Python, C++, Java, Typescript</span>
-          </li>
-          <li className="item">
-            <h2>Other skills</h2>
-            <span>
-              Teaching, Public speaking, Entrepeneurship, Innovation, Git and
-              Github, Game Development with Pygame
-            </span>
-          </li>
-        </ol>
+        <div className="skill-type">
+          <h2>Front-End</h2>
+          <div className="skill-list">
+            {skills.frontend.map((item) => {
+              return (
+                <div className="skill">
+                  <p>{item}</p>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+
+        <div className="skill-type">
+          <h2>Back-End</h2>
+          <div className="skill-list">
+            {skills.backend.map((item) => {
+              return (
+                <div className="skill">
+                  <p>{item}</p>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+
+        <div className="skill-type">
+          <h2>Languages</h2>
+          <div className="skill-list">
+            {skills.languages.map((item) => {
+              return (
+                <div className="skill">
+                  <p>{item}</p>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+
+        <div className="skill-type">
+          <h2>Other skills</h2>
+          <div className="skill-list">
+            {skills.others.map((item) => {
+              return (
+                <div className="skill">
+                  <p>{item}</p>
+                </div>
+              );
+            })}
+          </div>
+        </div>
       </div>
     </div>
   );
