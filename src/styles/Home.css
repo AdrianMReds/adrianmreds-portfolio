@@ -53,6 +53,10 @@
   width: 80%;
 }
 
+.skill-type h2 {
+  text-align: center;
+}
+
 .skill-list {
   display: flex;
   flex-wrap: wrap;
