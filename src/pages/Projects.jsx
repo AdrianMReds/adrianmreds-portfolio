@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../styles/Projects.css";
 import ProjectItem from "../components/ProjectItem";
 import { ProjectList } from "../helper/projectList";
 
 const Projects = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <h1>My personal projects</h1>
       <div className="projectList">
         {ProjectList.map((item, index) => {
