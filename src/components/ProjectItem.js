@@ -5,7 +5,6 @@ import { icons } from "../helper/skillIcons";
 const ProjectItem = ({ id, image, name, skills }) => {
   const navigate = useNavigate();
   const skillList = skills.split(", ");
-  console.log(skillList);
 
   return (
     <div
