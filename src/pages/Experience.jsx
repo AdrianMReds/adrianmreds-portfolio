@@ -12,13 +12,14 @@ const Experience = () => {
     <div className="container">
       <h1>My experience</h1>
       <div className="experience">
-        <h3>Work</h3>
+        <h2>Work</h2>
         <div className="work">
           {experienceList.map((item) => {
             return <ExperienceItem item={item} />;
           })}
         </div>
-        <h3>Education</h3>
+        <br />
+        <h2>Education</h2>
         <div className="education">
           {educationList.map((item) => {
             return <ExperienceItem item={item} edu />;

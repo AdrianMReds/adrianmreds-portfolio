@@ -42,6 +42,11 @@
 
 #open {
   height: 100vh;
+  transition: height 0.3s ease-in;
+}
+
+#close {
+  transition: height 0.3s ease-out;
 }
 
 #open .links {

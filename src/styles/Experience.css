@@ -15,17 +15,25 @@
   margin: 0;
 }
 
+.container h2 {
+  text-decoration: underline;
+}
+
 .experienceItem {
   display: flex;
   width: 50%;
   margin: 15px auto;
-  /* border: 1px solid lightblue; */
+  border: 1px solid #1a1365;
   transition: background-color 0.3s ease;
   cursor: pointer;
 }
 
 .experienceItem:hover {
   background-color: rgba(26, 19, 101, 0.1);
+}
+
+.experienceItem:hover .date {
+  text-decoration: underline;
 }
 
 .date {
@@ -78,4 +86,37 @@
   color: white;
   padding: 10px;
   border-radius: 15px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .experienceItem {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .date {
+    padding: 0;
+    width: 100%;
+    margin: 5px auto;
+    padding: 0 10px;
+    text-align: left;
+    text-decoration: underline;
+  }
+
+  .experienceItem:hover {
+    background-color: white;
+  }
+
+  .tag {
+    margin: 5px 5px;
+    background-color: #1a1365;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 0.7em;
+  }
 }
