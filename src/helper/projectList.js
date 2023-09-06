@@ -1,6 +1,6 @@
 import Colorpalettepic from "../assets/img/colorpalette.png";
 import MyLanguage from "../assets/img/amrlang.webp";
-import Minesweeper from "../assets/img/footballminesweeper.png";
+import Minesweeper from "../assets/img/minesweeper.png";
 import ThisWebpage from "../assets/img/thiswebpage.png";
 import PygamePong from "../assets/img/pygamepong.png";
 
@@ -10,12 +10,14 @@ export const ProjectList = [
     image: Colorpalettepic,
     skills: "React, Javascript, React Router, CSS",
     repo: "https://github.com/AdrianMReds/react-color-palette-generator",
+    url: "https://c0lorpalettegenerator.vercel.app/",
   },
   {
-    name: "Football minesweeper",
+    name: "React minesweeper",
     image: Minesweeper,
     skills: "React, Javascript, React Router, CSS",
     repo: "https://github.com/AdrianMReds/react-minesweeper",
+    url: "https://min3sweeper.vercel.app/",
   },
   {
     name: "My programming language",
