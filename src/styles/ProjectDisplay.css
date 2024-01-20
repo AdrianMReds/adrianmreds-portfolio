@@ -45,6 +45,7 @@
 .action p {
   margin: 0;
   font-size: 0.9em;
+  text-align: center;
 }
 
 /* #repo svg,

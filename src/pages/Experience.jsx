@@ -63,7 +63,7 @@ const Experience = () => {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="May 2023 - Present"
+          date="May 2023 - October 2023"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<FaBriefcase />}
         >
@@ -74,9 +74,27 @@ const Experience = () => {
             Monterrey, Nuevo León
           </h4>
           <p>
-            I develop MVPs for startups using Wordpress, Elementor and
-            Formidable. I create plugins for Wordpress using Javascript and
+            I developed MVPs for startups using Wordpress, Elementor and
+            Formidable. I created plugins for Wordpress using Javascript and
             modify Formidable tables with HTML and CSS.
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="October 2023 - Present"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<FaBriefcase />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Jr. Full Stack Developer - Abdo Technologies
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Monterrey, Nuevo León (Hybrid)
+          </h4>
+          <p>
+            I develop mobile apps with Flutter and on web apps with MERN stack.
+            I also code with Python and FastAPI.
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
