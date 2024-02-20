@@ -93,8 +93,8 @@ const Experience = () => {
             Monterrey, Nuevo León (Hybrid)
           </h4>
           <p>
-            I develop mobile apps with Flutter and on web apps with MERN stack.
-            I also code with Python and FastAPI.
+            I develop mobile apps with Flutter and web apps with MERN stack. I'm
+            also working with Python, FastAPI, langchain and OpenAI API.
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
